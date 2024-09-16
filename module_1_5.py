@@ -12,7 +12,7 @@
 
 immutable_var= (1,"Пикинер", [1,6], True)
 print("immutable tuple: " + str(immutable_var))
-
+#Элементы кортежа нельзя изменить, потому что этот объект относится к неизменяемому типу данных
 mutable_var= [25,"флешка", [25,1],False]
 mutable_var.remove("флешка")
 mutable_var.extend(["бублик","зилибоба"])
